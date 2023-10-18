@@ -55,6 +55,7 @@ const verifyToken = async (token) => {
     return  APIResponse;
   } catch (error) {
     console.log(error);
+ 
   }
 };
 
